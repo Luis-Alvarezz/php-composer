@@ -1,0 +1,21 @@
+{
+    "name": "luisa/php-composer",
+    "description": "CRUD with PHP and MySQL, practice composer",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.6",
+        "firebase/php-jwt": "^6.10",
+        "symfony/http-foundation": "^7.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "App\\" : "app/"
+      }
+    },
+    "authors": [
+        {
+            "name": "Luis-Alvarezz",
+            "email": "luisangelug10@gmail.com"
+        }
+    ]
+}
