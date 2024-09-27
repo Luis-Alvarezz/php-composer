@@ -3,7 +3,7 @@
 
   use App\repositories\empleadoRepository;
 
-  class mpleadoServices {
+  class empleadoServices {
     private $EmpleadoRepository;
     
     public function __construct( empleadoRepository $empleadoRepository ) {
